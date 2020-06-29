@@ -1,0 +1,33 @@
+body {
+  animation: move 10s ease infinite;
+  transform: translate3d(0, 0, 0);
+  background: linear-gradient(45deg, #49D49D 10%, #A2C7E5 90%); }
+  body .profile-display {
+    margin-left: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center; }
+    body .profile-display div {
+      font-size: 1.3rem;
+      font-family: Roboto;
+      color: #3c584d;
+      margin-bottom: 2%; }
+    body .profile-display a {
+      text-decoration: none; }
+      body .profile-display a button {
+        cursor: pointer;
+        display: block;
+        width: 100%;
+        padding: 10px;
+        font-family: Roboto;
+        -webkit-appearance: none;
+        outline: 0;
+        border: 0;
+        color: white;
+        background: #dd4b39;
+        transition: 0.3s;
+        font-size: 1.1rem; }
+        body .profile-display a button:hover {
+          background: #a09486; }

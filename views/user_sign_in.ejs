@@ -1,0 +1,30 @@
+
+<link rel="stylesheet" type="text/css" href="/css/sign_in.css">
+<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<div class="user">
+    
+    <form class="form" action="/users/create-session" method="POST">
+        
+        <div class="form__group">
+            <input type="email" placeholder="Email" name="email" class="form__input" />
+        </div>
+        
+        <div class="form__group">
+            <input type="password" placeholder="Password" name="password" class="form__input" />
+        </div>
+        
+
+            <div class="g-recaptcha" data-sitekey="6LeCT6oZAAAAAMGIXeZ2S2TZWKBb_zrfvDf6Yag_"></div>
+
+
+        <button class="btn">Sign In</button>
+    </form>
+    
+    <h2><span>or</span></h2>
+    <div class="form__group">
+            
+        <a href="/users/auth/google"><button class="form__input google-button"><i class="fab fa-google"></i><span>Continue With Google</span></button></a>
+    </div>
+    <a href="/users/forgot-enter-email">Forgot Password</a>
+</div>

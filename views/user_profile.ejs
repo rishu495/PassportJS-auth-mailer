@@ -1,0 +1,15 @@
+
+
+<link rel="stylesheet" type="text/css" href="/css/profile.css">
+
+
+<div class="profile-display">
+    <div>Name:<%=user.name%></div>
+    <div>Email:<%=user.email%></div>
+
+    <%if(locals.user){%>
+
+        <a href="/users/reset-page"><button>Reset Password</button></a>
+
+    <%}%>
+</div>

@@ -1,0 +1,34 @@
+body {
+  margin: 0; }
+
+#header {
+  height: 10%;
+  background-color: #9cc8df; }
+  #header .page-link {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end; }
+    #header .page-link a {
+      text-decoration: none;
+      margin-right: 3%;
+      font-size: 1.3rem;
+      font-family: Roboto;
+      color: #3c584d; }
+  #header .logged-in {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1.3rem;
+    font-family: Roboto;
+    color: white; }
+    #header .logged-in a {
+      text-decoration: none;
+      margin-right: 5%;
+      margin-left: 1%;
+      font-size: 1.3rem;
+      font-family: Roboto;
+      color: #3c584d; }
