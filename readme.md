@@ -6,6 +6,9 @@ Complete Authentication System with all Checks using PassportJS
 
 ---------Bonus Features & Implementation details :-
 
+-------------------------------->>>>>>Google captcha doesn't support localhost domain, so run this app using following url :- http://127.0.0.1:8000/
+-------------------------------->>>>>>Put all your keys in .env_sample file
+
 1.GoogleCaptcha during sign in/sign up
 
 2.Reset password feature after login
